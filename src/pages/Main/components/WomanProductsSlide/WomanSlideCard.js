@@ -3,6 +3,7 @@ import './WomanSlideCard.scss';
 
 const WomanSlideCard = ({ source }) => {
   const { src, productname, price } = source;
+
   return (
     <div className="womanSlideCard">
       <img src={src} alt="lulu1" />

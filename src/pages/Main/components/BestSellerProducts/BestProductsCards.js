@@ -3,6 +3,7 @@ import './BestProductsCards.scss';
 
 const BestProductsCards = ({ source }) => {
   const { src, productname, price } = source;
+
   return (
     <div className="bestProductsCards">
       <img src={src} alt="luluIsher Best Item" />
